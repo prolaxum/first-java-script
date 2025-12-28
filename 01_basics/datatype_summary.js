@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+//*********************** Memory allocation ************************************
+// Stack (Primitive)  Heap(Non-primitive)
+let myname = "Simarpal Singh"
+let anothername = myname
+ anothername = "chaiaurcode"
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email :  "simarpalsingh215@gmail.com",
+    upi : "user@oksbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hithere@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
