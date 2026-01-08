@@ -33,3 +33,12 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+/*Method,Behavior
+".substring(start, end)", - Extracts characters between two indices. It does not accept negative indices (treats them as 0).
+".slice(start, end)",  - Similar to substring but accepts negative indices to count backward from the end of the string.
+.split(separator), - "Divides a string into an array based on a pattern (e.g., gameName.split('-'))."*/
+
+
+/*For your specific code const gameName = new String('hitesh-hc-com'), 
+checking gameName.__proto__ reveals the "blueprint" or the collection 
+of methods that the String object has access to. */
