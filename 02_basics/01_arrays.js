@@ -7,7 +7,7 @@ const myArr = [0,1,2,3,4,5,6,7,8,9]
 // shallow copies of an obejct is a copy whose properties share the same references(point to the same underlying values) as those of the source object from which the copy was made
 // deep copies of an object is a copy whose properties do not share the same references
 
-const myHeroes = ["spiderman","superman"]
+const myHeros = ["spiderman","superman"]
 
 const myArr2 = new Array(1,2,3,4) // three ways to declare an array
 
