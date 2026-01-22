@@ -36,3 +36,33 @@ function loginUserMessage(username){
 }
 // console.log(loginUserMessage("Simarpal Singh"))
 console.log(loginUserMessage());
+
+function calcualteCartPrice(val1,val2,...num1){   // ...num1 is a rest operator which meansit collect multiple values in a single variable(araay or variable)
+    return num1
+}
+// console.log(calcualteCartPrice(400,200,3000,4000));
+
+const user = {
+    name : "Simarpal",
+    price : 200
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`);
+    
+}
+// handleObject(user)
+handleObject( {
+    name : "sam",
+    price : 399
+    })
+
+const myNewArray = [100,200,300,400]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([100,200,200,100]));
+
