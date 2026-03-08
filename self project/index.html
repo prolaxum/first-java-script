@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First project</title>
+</head>
+<body>
+    <label for="sourceInput">Type something here:</label>
+    <input type="text" id="sourceInput"  placeholder="Search the web">
+    <p>It will show below</p>
+    <div id="targetArea" style="border: 1px solid black; padding: 10px;"></div>
+    <label for = "click here"> Click</label>
+    
+</body>
+<script>
+    const sourceInput = document.getElementById('sourceInput');
+    const targetArea = document.getElementById('targetArea');
+
+    sourceInput.addEventListener('input',function(){
+        targetArea.innerHTML= sourceInput.value
+        });
+
+
+</script>
+</html>
